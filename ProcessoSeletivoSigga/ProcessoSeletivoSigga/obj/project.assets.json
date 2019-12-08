@@ -977,11 +977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj",
+      "projectUniqueName": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj",
       "projectName": "ProcessoSeletivoSigga",
-      "projectPath": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj",
+      "projectPath": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj",
       "packagesPath": "C:\\Users\\joao.pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\obj\\",
+      "outputPath": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

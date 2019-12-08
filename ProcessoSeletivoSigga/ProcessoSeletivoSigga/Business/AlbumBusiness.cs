@@ -10,7 +10,7 @@ namespace ProcessoSeletivoSigga.Business
   /// <summary>
   /// Parte de négocios do album, inserção no banco e get do banco.
   /// </summary>
-  public sealed class AlbumBusiness : IAlbumBusiness
+  public class AlbumBusiness : IAlbumBusiness
   {
     /// <summary>
     /// Set conection com o banco.
@@ -24,7 +24,7 @@ namespace ProcessoSeletivoSigga.Business
     /// Carrega dados do album do banco, para quando o app estiver offline.
     /// </summary>
     /// <returns></returns>
-    public Task<List<Album>> LoadAlbumOffline()
+    public virtual Task<List<Album>> LoadAlbumOffline()
     {
       return Database<Album>.Get();
     }
@@ -33,7 +33,7 @@ namespace ProcessoSeletivoSigga.Business
     /// Carrega album da api.
     /// </summary>
     /// <returns></returns>
-    public async Task<ICollection<Album>> LoadAlbumApiAsync()
+    public virtual async Task<ICollection<Album>> LoadAlbumApiAsync()
     {
       var albumAPI = RestService.For<IRestApi>(EndPoints.BaseUrl);
       var albunsRetorno = await albumAPI.GetAlbum();
@@ -44,7 +44,7 @@ namespace ProcessoSeletivoSigga.Business
     /// <summary>
     /// Insere todas as informações do album no banco.
     /// </summary>
-    public void InsertAlbum(ICollection<Album> Album)
+    public virtual void InsertAlbum(ICollection<Album> Album)
     {
       Database<Album>.InsertAll(Album);
     }

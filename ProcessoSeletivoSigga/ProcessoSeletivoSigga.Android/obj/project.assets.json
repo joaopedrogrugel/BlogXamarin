@@ -2374,11 +2374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\ProcessoSeletivoSigga.Android.csproj",
+      "projectUniqueName": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\ProcessoSeletivoSigga.Android.csproj",
       "projectName": "ProcessoSeletivoSigga.Android",
-      "projectPath": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\ProcessoSeletivoSigga.Android.csproj",
+      "projectPath": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\ProcessoSeletivoSigga.Android.csproj",
       "packagesPath": "C:\\Users\\joao.pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\obj\\",
+      "outputPath": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2395,8 +2395,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj": {
-              "projectPath": "C:\\Users\\joao.pedro\\Music\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj"
+            "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj": {
+              "projectPath": "C:\\Users\\joao.pedro\\Blog\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga\\ProcessoSeletivoSigga.csproj"
             }
           }
         }

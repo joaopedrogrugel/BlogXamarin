@@ -52,7 +52,7 @@ namespace ProcessoSeletivoSigga.ViewModel
     /// <summary>
     /// Carrega Fotos Offline, buscando os albuns que já foram acessados e estão salvos no banco.
     /// </summary>
-    private void LoadFotosOffline(float albumId)
+    private void LoadFotosOffline(long albumId)
     {
       var fotoBusiness = DependencyService.Resolve<IFotoBusiness>();
       foreach (Foto foto in fotoBusiness.GetFotos(albumId))

@@ -8,7 +8,7 @@ namespace ProcessoSeletivoSigga.Business
 {
   public interface IFotoBusiness
   {
-    List<Foto> GetFotos(float albumId);
+    List<Foto> GetFotos(long albumId);
     Task InsertFotos(long albumId);
     Task<ICollection<Foto>> LoadFotosApiAsync(long albumId);
   }

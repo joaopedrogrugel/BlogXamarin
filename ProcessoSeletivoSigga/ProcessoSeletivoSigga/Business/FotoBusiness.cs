@@ -10,7 +10,7 @@ namespace ProcessoSeletivoSigga.Business
   /// <summary>
   /// Parte de négocios da foto, será feito o download da imagem, inserção no banco e get do banco.
   /// </summary>
-  public sealed class FotoBusiness : IFotoBusiness
+  public class FotoBusiness : IFotoBusiness
   {
     /// <summary>
     /// Set conection com o banco.
@@ -23,10 +23,10 @@ namespace ProcessoSeletivoSigga.Business
     /// <summary>
     /// Recupera as fotos salvas no banco, para quando o app estiver no modo offline.
     /// </summary>
-    public List<Foto> GetFotos(float albumId)
+    public virtual List<Foto> GetFotos(long albumId)
     {
       var fotosBanco = Data.Database<Foto>.Get();
-      return (from x in fotosBanco.Result where x.AlbumId == albumId select x).ToList();
+      return FilterFotosForAlbumId(albumId, fotosBanco.Result);
     }
 
     ICollection<Foto> _fotosAll;
@@ -34,7 +34,7 @@ namespace ProcessoSeletivoSigga.Business
     /// <summary>
     /// Insere as Fotos do album selecionado no banco. Verifica, se já existe fotos do album no banco.
     /// </summary>
-    public async Task InsertFotos(long albumId)
+    public virtual async Task InsertFotos(long albumId)
     {
       bool hasFotoAlbum = await Data.Database<Foto>.Find(x => x.AlbumId == albumId) != null;
 
@@ -45,7 +45,7 @@ namespace ProcessoSeletivoSigga.Business
     /// <summary>
     /// Carrega as Fotos Da Api, para quando o app estiver online.
     /// </summary>
-    public async Task<ICollection<Foto>> LoadFotosApiAsync(long albumId)
+    public virtual async Task<ICollection<Foto>> LoadFotosApiAsync(long albumId)
     {
       if (_fotosAll == null)
       {
@@ -53,8 +53,17 @@ namespace ProcessoSeletivoSigga.Business
         var fotosAPI = RestService.For<IRestApi>(EndPoints.BaseUrl);
         _fotosAll = await fotosAPI.GetPhotos();
       }
-      _fotos = (from x in _fotosAll where x.AlbumId == albumId select x).ToList();
+      _fotos = FilterFotosForAlbumId(albumId, _fotosAll);
       return _fotos;
+    }
+
+    /// <summary>
+    /// Filtra os registros de fotos pelo id do album
+    /// </summary>
+    /// <param name="albumId">AlbumId</param>
+    private List<Foto> FilterFotosForAlbumId(long albumId, ICollection<Foto> todasFotos)
+    {
+      return (from x in todasFotos where x.AlbumId == albumId select x).ToList();
     }
   }
 }
