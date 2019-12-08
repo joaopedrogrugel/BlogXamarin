@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ProcessoSeletivoSigga" x:Class="ProcessoSeletivoSigga.MainPageView" Padding="0,20,0,0">
+    <NavigationPage.TitleView>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="BlogsPot" />
+    </NavigationPage.TitleView>
+    <ListView
+            x:Name="ListViewAlbum"
+            HasUnevenRows="True"
+            IsPullToRefreshEnabled="True"
+            IsRefreshing="{Binding IsBusy}"
+            ItemsSource="{Binding AlbunsListView}"
+            RefreshCommand="{Binding RefreshCommand}"
+            SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Grid.Column = "1"
+                           FontSize="Medium"
+                           Text="{Binding Title}" />
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

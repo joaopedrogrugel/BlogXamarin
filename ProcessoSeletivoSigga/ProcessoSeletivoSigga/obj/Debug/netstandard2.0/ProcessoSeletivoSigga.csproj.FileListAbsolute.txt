@@ -1,0 +1,36 @@
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.deps.json
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.dll
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ref\ProcessoSeletivoSigga.dll
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.pdb
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\Mono.Android.dll
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\Mono.Android.pdb
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\Mono.Android.xml
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\RefitStubs.g.cs
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.AssemblyInfoInputs.cache
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.AssemblyInfo.cs
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\XamlC.stamp
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.csproj.CopyComplete
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.dll
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ref\ProcessoSeletivoSigga.dll
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.pdb
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\DetailAlbumView.xaml.g.cs
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\DetailFotoView.xaml.g.cs
+E:\dow\ProcessoSeletivoSigga (1)\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\MainPageView.xaml.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.deps.json
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.dll
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ref\ProcessoSeletivoSigga.dll
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\bin\Debug\netstandard2.0\ProcessoSeletivoSigga.pdb
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\DetailAlbumView.xaml.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\DetailFotoView.xaml.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\View\MainPageView.xaml.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.csproj.CoreCompileInputs.cache
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.AssemblyInfoInputs.cache
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.AssemblyInfo.cs
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.dll
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ref\ProcessoSeletivoSigga.dll
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.pdb
+C:\Users\joao.pedro\Music\ProcessoSeletivoSigga\ProcessoSeletivoSigga\ProcessoSeletivoSigga\obj\Debug\netstandard2.0\ProcessoSeletivoSigga.csprojAssemblyReference.cache
